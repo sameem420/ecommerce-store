@@ -1,2 +1,2 @@
 # ecommerce-site
-Front-End of Ecommerce site developed using Bootstrap, HTML &amp; CSS 
+Front-End of E-commerce website developed using Bootstrap, HTML &amp; CSS 

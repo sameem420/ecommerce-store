@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Commerce Store - Home</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row min-vh-100">
+            <div class="col-12">
+                <header class="row">
+                    <!-- Top Nav -->
+                    <div class="col-12 bg-dark py-2 d-md-block d-none">
+                        <div class="row">
+                            <div class="col-auto mr-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="tel:+123-456-7890"><i class="fa fa-phone-square mr-2" style="color:lime;"></i>+123-456-7890</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:mail@ecom.com"><i class="fa fa-envelope mr-2" style="color:yellow;"></i>mail@ecom.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="register.html"><i class="fas fa-user-edit mr-2" style="color:lightskyblue;"></i>Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html"><i class="fas fa-sign-in-alt mr-2" style="color:red;"></i>Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Nav -->
+
+                    <!-- Header -->
+                    <div class="col-12 bg-white pt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class=" text-center text-lg-left">
+                                    <a href="index.html"><img src="images/ecommercelogo.png" alt="Ecommerce Store logo" width="150px"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mx-auto mt-4 mt-lg-0 text-lg-left">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" class="form-control border-dark" placeholder="Search..." required>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-4 text-center text-lg-right header-item-holder">
+                                <a href="#" class="header-item">
+                                    <i class="fas fa-heart mr-2" style="color:red;"></i><span id="header-favorite">0</span>
+                                </a>
+                                <a href="cart.html" class="header-item">
+                                    <i class="fas fa-shopping-bag mr-2" style="color:brown;"></i><span id="header-qty" class="mr-3">2</span>
+                                    <i class="fas fa-money-bill-wave mr-2" style="color:seagreen;"></i><span id="header-price">$4,000</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Nav -->
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
+                                <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#mainNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="mainNav">
+                                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electronics</a>
+                                            <div class="dropdown-menu" aria-labelledby="electronics">
+                                                <a class="dropdown-item" href="category.html">Computers</a>
+                                                <a class="dropdown-item" href="category.html">Mobile Phones</a>
+                                                <a class="dropdown-item" href="category.html">Television Sets</a>
+                                                <a class="dropdown-item" href="category.html">DSLR Cameras</a>
+                                                <a class="dropdown-item" href="category.html">Projectors</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="fashion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion</a>
+                                            <div class="dropdown-menu" aria-labelledby="fashion">
+                                                <a class="dropdown-item" href="category.html">Men's</a>
+                                                <a class="dropdown-item" href="category.html">Women's</a>
+                                                <a class="dropdown-item" href="category.html">Children's</a>
+                                                <a class="dropdown-item" href="category.html">Accessories</a>
+                                                <a class="dropdown-item" href="category.html">Footwear</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="books" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
+                                            <div class="dropdown-menu" aria-labelledby="books">
+                                                <a class="dropdown-item" href="category.html">Adventure</a>
+                                                <a class="dropdown-item" href="category.html">Horror</a>
+                                                <a class="dropdown-item" href="category.html">Romantic</a>
+                                                <a class="dropdown-item" href="category.html">Children's</a>
+                                                <a class="dropdown-item" href="category.html">Non-Fiction</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Nav -->
+
+                    </div>
+                    <!-- Header -->
+
+                </header>
+            </div>
+            <div class="col-12">
+                <h1>About Us</h1>
+                <p>
+                    Over the period of the last 11 years, <b>You</b> have taken <b>E-Commmerce Store</b> from a simple business idea to a revolution in the heart of Pakistan’s Information Technology market. The idea behind the development of Computer Zone was never about creating a retailer with good prices; but to give birth to a place where people could be served as a part of the family. Where they could actually feel the touch of Information Technology’s application in the way they are dealt with. The world has moved to the next generation of business relationships;<br>
+                    and we are proud to be the first in Pakistan’s Information Technology market to accept that “Yes, YOU are important!”<br><br>
+                    With around 1,000% growth rate, we are proud and extremely happy to quote that Computer Zone has a family of approximately 40,000 (and growing) online family members and more than 60,000 (and growing) customer’s offline;<br>
+                    in comparison to a total of 10 customers 11 years ago. The world is changing and <b>E-Commmerce Store</b> happily accepts that the customers of today are more tech savvy and demand value for their money. We believe that change is the only thing constant and in order to deliver to you the value you deserve, we are always in the process of evolving to the next best level.
+                     
+                    The success of Computer Zone is not a magical coincidence but a result of experienced professionals listening to and implementing every suggestion that YOU gifted us with over the past 11 years. The world has revolutionized and it’s time to move from those close gullied and air tight markets to a system of automation where you do not need to run after sales people asking for product specification and quotations. Have a nice sip of coffee, stretch your legs and go through the updated, complete and vast range of products awaiting your royal presence by a few clicks. Even if you are not comfortable at dealing with an online market and need a more personal touch and suggestion to things; come visit Computer Zone. 11 years ago people didn’t have online markets; and Computer Zone respects your demand for one to one communication and anxiously awaits your presence.
+                     
+                    There might still be a lot of things that you could want to know about Computer Zone. Simply Sign up, feel free, and don’t be shy. We never tell our customers to hush away because there are others to deal with or we already met our daily sales quota. So, welcome to Computer Zone; and don’t you worry because whether you are a corporate client or an individual customer; we are family now. Welcome to the Information Technology’s Revolution in Pakistan!
+                </p>
+            </div>
+
+                    <div class="col-12 py-3 bg-light d-sm-block d-none">
+                        <div class="row">
+                            <div class="col-lg-3 col ml-auto large-holder">
+                                <div class="row">
+                                    <div class="col-auto ml-auto large-icon">
+                                        <i class="fas fa-money-bill" style="color:seagreen;"></i>
+                                    </div>
+                                    <div class="col-auto mr-auto large-text">
+                                        Best Price
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col large-holder">
+                                <div class="row">
+                                    <div class="col-auto ml-auto large-icon" style="color:royalblue;">
+                                        <i class="fas fa-truck-moving"></i>
+                                    </div>
+                                    <div class="col-auto mr-auto large-text">
+                                        Fast Delivery
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col mr-auto large-holder">
+                                <div class="row">
+                                    <div class="col-auto ml-auto large-icon">
+                                        <i class="fas fa-check" style="color: limegreen;"></i>
+                                    </div>
+                                    <div class="col-auto mr-auto large-text">
+                                        Genuine Products
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <!-- Main Content -->
+            </div>
+
+            <div class="col-12 align-self-end">
+                <!-- Footer -->
+                <footer class="row">
+                    <div class="col-12 bg-dark text-white pb-3 pt-5">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-4 text-center text-sm-left mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="footer-logo">
+                                            <a href="index.html"><img src="images/ecommercelogo.png" alt="Ecommerce Store logo"></a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-12">
+                                        <address>
+                                            XYZ Street, ABC Area<br>
+                                            Faisalabad, Pakistan
+                                        </address>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="social-icon" style="color:cornflowerblue;"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="social-icon" style="color:deepskyblue;"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-icon" style="color:dodgerblue;"><i class="fab fa-linkedin"></i></a>
+                                        <a href="#" class="social-icon" style="color:palevioletred;"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon" style="color:red;"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-8 text-center text-sm-left mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Who are we?</h4>
+                                    </div>
+                                    <div class="col-12 text-justify">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet vel ligula vel sodales. Aenean vel ullamcorper purus, ac pharetra arcu. Nam enim velit, ultricies eu orci nec, aliquam efficitur sem. Quisque in sapien a sem vestibulum volutpat at eu nibh. Suspendisse eget est metus. Maecenas mollis quis nisl ac malesuada. Donec gravida tortor massa, vitae semper leo sagittis a. Donec augue turpis, rutrum vitae augue ut, venenatis auctor nulla. Sed posuere at erat in consequat.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-5 ml-lg-auto ml-sm-0 ml-auto mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Quick Links</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="footer-nav">
+                                            <li>
+                                                <a href="./index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="./about.html">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terms & Conditions</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-sm-2 col-4 mr-auto mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase text-underline">
+                                        <h4>Help</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="footer-nav">
+                                            <li>
+                                                <a href="#">FAQs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shipping</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Returns</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Track Order</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Report Fraud</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 text-center text-sm-left">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Newsletter</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter your email..." required>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn btn-outline-light text-uppercase">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <h4 style="background-color: #c0c0c0; color:black;">Copyright &copy; 2020 Muhammad Sameem</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </footer>
+                <!-- Footer -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
